@@ -294,11 +294,43 @@ h1{
     }
 }
 
+/*colecciones*/
 
+.imgCole{
+    width: 300px;
+    box-shadow: 5px 2px 5px rgb(185, 184, 184);
 
+}
+.galery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    box-shadow: 5px 2px 5px rgb(185, 184, 184);
+    margin-top: 3rem;
+}
 
+/*estampados*/
 
+.texto{
+    color: rgb(120, 124, 124);
+    font-size: small;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.titulo{
+    margin: 30px;
+}
 
+.texto2{
+    color: rgb(120, 124, 124);
+    font-size: small;
+    width: 350px;
+    text-align:left;
+    margin: auto;
+}
 
 
 
