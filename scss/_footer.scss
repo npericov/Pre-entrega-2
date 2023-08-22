@@ -1,0 +1,55 @@
+footer { 
+    grid-area: footer;
+    width: 90%;
+    height: 100%;
+    border-top: 1px solid rgb(120, 124, 124);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin: auto;
+    margin-top: 40px;
+    .empresa{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items:center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .infoFooter{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .logoFooter{
+            width: 140px;
+            margin-bottom:2rem;
+        }
+        .pFooter{
+            color: rgb(120, 124, 124);
+            font-size:smaller
+        }
+    }
+    .formulario {
+        width: 30%;
+        background-color: rgb(120, 124, 124);
+        padding: 1rem;
+        margin: 3rem;
+    }
+    h2{
+        color: white;
+        font-size:larger
+    }
+    .colorBoton{
+        background-color: rgb(14, 175, 167);
+        color: white;
+    }
+}
+
+
+
+
+
