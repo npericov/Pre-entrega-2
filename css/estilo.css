@@ -34,26 +34,104 @@ header {
     header .menu .logo {
       width: 140px;
       text-align: left; }
-    header .menu ul li {
-      display: inline-block; }
-      header .menu ul li a {
+    header .menu ul {
+      display: flex; }
+      header .menu ul a {
         padding: 10px;
         margin: 10px;
         color: #787c7c;
         text-decoration: none; }
-        header .menu ul li a:hover {
+        header .menu ul a:hover {
           color: #0eafa7;
           border-bottom: 2px solid #0eafa7; }
-  header .iconos {
-    display: flex;
-    height: 157px;
-    padding: 24px;
-    flex-direction: row;
+    header .menu .iconos {
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+      justify-content: flex-end; }
+      header .menu .iconos img .icono {
+        width: 1rem;
+        margin: auto 100px;
+        padding: 10px; }
+
+@media screen and (max-width: 780px) {
+  body .contenedor {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 2fr 0.8fr;
+    grid-template-areas: "header header " "section-1 section-1" "footer footer "; }
+    body .contenedor ul {
+      text-align: right; }
+      body .contenedor ul li a {
+        margin-right: 0; }
+    body .contenedor .iconos {
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 2dvb; }
+  .section1 {
+    width: 70%;
     flex-wrap: nowrap;
-    align-items: center; }
-    header .iconos .icon {
-      width: 24px;
-      margin: 15px; }
+    align-items: baseline; }
+    .section1 .iconInfo {
+      width: 5rem;
+      border-radius: 40px;
+      margin: 20px; }
+    .section1 .h6 {
+      text-align: right;
+      margin-bottom: 30px; }
+  footer .infoFooter {
+    width: 100%;
+    margin-bottom: 1rem; }
+  footer .formulario {
+    width: 100%;
+    background-color: #787c7c;
+    padding: 1rem;
+    margin: 1rem; } }
+
+@media screen and (max-width: 480px) {
+  body .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 2fr 0.6fr;
+    grid-template-areas: "header " "section-1 " "footer "; }
+  main .section1 {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    justify-items: center;
+    align-items: baseline;
+    margin: 20px auto;
+    text-align: center; }
+    main .section1 .iconInfo {
+      width: 5rem;
+      border-radius: 40px;
+      margin: 20px; }
+    main .section1 h6 {
+      margin-bottom: 30px; }
+  main .section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center; }
+    main .section2 .imgGaleria {
+      max-width: 320px;
+      width: 100%;
+      text-align: center;
+      margin: auto 0; } }
+
+footer .infoFooter {
+  width: 90%;
+  margin-bottom: 1rem; }
+
+footer .logoFooter {
+  margin-top: 2rem; }
+
+footer .formulario {
+  max-width: 320px;
+  width: 100%; }
 
 main {
   grid-area: section-1; }
@@ -111,14 +189,6 @@ footer {
   align-items: center;
   margin: auto;
   margin-top: 40px; }
-  footer .empresa {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    margin-top: 30px; }
   footer .infoFooter {
     width: 50%;
     display: flex;
@@ -129,7 +199,8 @@ footer {
       margin-bottom: 2rem; }
     footer .infoFooter .pFooter {
       color: #787c7c;
-      font-size: smaller; }
+      font-size: smaller;
+      text-align: justify; }
   footer .formulario {
     width: 30%;
     background-color: #787c7c;
@@ -141,66 +212,3 @@ footer {
   footer .colorBoton {
     background-color: #0eafa7;
     color: white; }
-
-@media screen and (max-width: 780px) {
-  .contenedor {
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 2fr 0.8fr;
-    grid-auto-columns: 1fr;
-    grid-template-areas: "header header " "section-1 section-1" "footer footer "; }
-    .contenedor ul {
-      text-align: right; }
-  .section1 {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
-    margin: auto; }
-    .section1 .iconInfo {
-      width: 5rem;
-      border-radius: 40px;
-      margin: 20px; }
-    .section1 .h6 {
-      text-align: right;
-      margin-bottom: 30px; }
-  .infoFooter {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem; } }
-
-@media screen and (max-width: 480px) {
-  .contenedor {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 2fr 0.6fr;
-    grid-auto-columns: 1fr;
-    grid-template-areas: "header " "section-1 " "footer "; }
-  .section1 {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
-    margin: auto; }
-  .iconInfo {
-    width: 5rem;
-    border-radius: 40px;
-    margin: 20px; }
-  .h6 {
-    text-align: right;
-    margin-bottom: 30px; }
-  .infoFooter {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem; }
-  .formulario {
-    max-width: 320px;
-    width: 100%; } }

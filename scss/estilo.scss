@@ -1,6 +1,7 @@
 @import "vars";
 @import "body";
 @import "header";
+@import "media-index";
 
 main{ 
     grid-area: section-1;
@@ -55,7 +56,7 @@ main{
 }
 
 @import "footer";
-@import "media-index"
+
 
 
 
