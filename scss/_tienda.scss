@@ -1,0 +1,57 @@
+@import "vars";
+@import "media-tienda";
+@import "body";
+@import "header";
+
+
+main{
+    h1{
+        color: $colortexto1;
+        font-size: xx-large;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .grupoBotones{
+        text-align:center;
+        .botonColor{
+            background-color: rgb(14, 175, 167);
+            border-color: rgb(14, 175, 167);
+            color: white;
+            &:hover{
+                background-color: $colortexto2;
+                color: white;
+                border-color: rgb(14, 175, 167);
+            }
+        }
+    }
+    .lista{
+        color: rgb(120, 124, 124);
+        &:hover{
+            color:rgb(14, 175, 167);
+            border-left: 3px solid rgb(14, 175, 167);
+        }
+    }
+    .tarjeta{
+        margin: 1rem;
+    }
+    .botonColor{
+        background-color: rgb(14, 175, 167);
+        border-color: rgb(14, 175, 167);
+        color: white;
+        &:hover{
+            color: rgb(14, 175, 167);
+            border-color: rgb(14, 175, 167);
+        }
+    }
+    .botonColor2{
+        background-color:rgb(190,22,34);
+        border-color:rgb(190,22,34);
+        color: white;
+        &:hover{
+            color: rgb(190,22,34);;
+            border-color: rgb(190,22,34);
+        }
+    }
+}
+
+@import "footer";

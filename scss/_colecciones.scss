@@ -1,0 +1,39 @@
+@import "vars";
+@import "body";
+@import "header";
+
+main{
+    background-color: $fondo;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    h1{
+        color: $colortexto1;
+        font-size: xx-large;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .galery{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 5px 5px 5px 5px rgb(185, 184, 184);
+        margin-top: 3rem;
+        .imgCole{
+            width: 300px;
+            box-shadow: 5px 2px 5px rgb(185, 184, 184);
+        }
+    }
+    h6{
+        color:$colortexto1;
+    }
+}
+
+
+
+
+
+@import "footer";
