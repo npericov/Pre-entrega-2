@@ -143,11 +143,12 @@ footer {
     body .contenedor ul {
       text-align: right; }
       body .contenedor ul li a {
-        margin-right: 0; }
+        margin-right: 0;
+        padding: 0; }
     body .contenedor .iconos {
       flex-direction: column;
       flex-wrap: wrap;
-      margin-top: 2dvb; }
+      margin-top: 2rem; }
   .section1 {
     width: 70%;
     flex-wrap: nowrap;
@@ -156,7 +157,7 @@ footer {
       width: 5rem;
       border-radius: 40px;
       margin: 20px; }
-    .section1 .h6 {
+    .section1 h6 {
       text-align: right;
       margin-bottom: 30px; }
   footer .infoFooter {
@@ -200,18 +201,15 @@ footer {
       max-width: 320px;
       width: 100%;
       text-align: center;
-      margin: auto 0; } }
-
-footer .infoFooter {
-  width: 90%;
-  margin-bottom: 1rem; }
-
-footer .logoFooter {
-  margin-top: 2rem; }
-
-footer .formulario {
-  max-width: 320px;
-  width: 100%; }
+      margin: auto 0; }
+  footer .infoFooter {
+    width: 90%;
+    margin-bottom: 1rem; }
+  footer .logoFooter {
+    margin-top: 2rem; }
+  footer .formulario {
+    max-width: 380px;
+    width: 100%; } }
 
 @media screen and (max-width: 780px) {
   footer .infoFooter {
@@ -545,7 +543,7 @@ main h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
 
-main .section2 {
+main .section4 {
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -553,16 +551,16 @@ main .section2 {
   justify-content: center;
   align-items: center;
   margin: auto; }
-  main .section2 .imgGaleria {
+  main .section4 .imgGaleria1 {
     max-width: 380px;
     width: 100%;
     opacity: .8;
     margin: 30px;
     box-shadow: 5px 2px 5px #b9b8b8; }
-    main .section2 .imgGaleria:hover {
+    main .section4 .imgGaleria1:hover {
       opacity: 1; }
 
-main p {
+main .parrafo1 {
   color: #0eafa7;
   font-size: small;
   text-align: justify;
@@ -675,15 +673,15 @@ main .section3 {
   justify-content: center;
   align-items: center;
   margin: auto; }
-  main .section3 .imgGaleria {
+  main .section3 .imgGaleria2 {
     max-width: 380px;
     width: 100%;
     opacity: .8;
     margin: 30px;
     box-shadow: 5px 2px 5px #b9b8b8; }
-    main .section3 .imgGaleria:hover {
+    main .section3 .imgGaleria2:hover {
       opacity: 1; }
-  main .section3 p {
+  main .section3 .parrafo {
     color: #0eafa7;
     font-size: small;
     text-align: justify;

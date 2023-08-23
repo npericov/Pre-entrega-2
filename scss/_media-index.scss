@@ -11,14 +11,18 @@
             "footer footer "; 
             ul{
                 text-align: right;
-                li a{
-                    margin-right: 0;
+                li{
+                    a{
+                    margin-right:0;
+                    padding: 0;
                 }
+            } 
+                
             }
             .iconos{
                 flex-direction: column;
                 flex-wrap: wrap;
-                margin-top: 2dvb;
+                margin-top: 2rem;
                 }
         }
     }
@@ -31,7 +35,7 @@
             border-radius: 40px;
             margin: 20px;        
         }
-        .h6{
+        h6{
             text-align:right;
             margin-bottom: 30px;
         }
@@ -103,7 +107,6 @@
             }
         }
     }
-}
     footer{
         .infoFooter{
             width: 90%;
@@ -113,8 +116,9 @@
             margin-top:2rem;
         }
         .formulario {
-            max-width: 320px;
+            max-width: 380px;
             width: 100%;
         }
+    }  
 } 
     
