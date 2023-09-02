@@ -1,14 +1,8 @@
 @import "vars";
-@import "body";
-@import "header";
+
 
 main{
-    h1{
-        color: $colortexto1;
-        font-size: xx-large;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
+
     .section3{
         width: 50%;
         display: flex;
@@ -38,4 +32,4 @@ main{
 }
 
 
-@import "footer";
+

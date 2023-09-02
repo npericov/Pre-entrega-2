@@ -1,11 +1,11 @@
-
+@import "vars";
 
 
 footer{ 
     grid-area: footer;
     width: 90%;
     height: 100%;
-    border-top: 1px solid rgb(120, 124, 124);
+    border-top: 1px solid $color2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,14 +23,15 @@ footer{
                 margin-bottom:2rem;
             }
             .pFooter{
-                color:$colortexto2;
+                color:$color2;
                 font-size:smaller;
                 text-align: justify;   
             }
         }
         .formulario {
             width: 30%;
-            background-color: rgb(120, 124, 124);
+            background-color: $color2;
+            border-radius: 20px;
             padding: 1rem;
             margin: 3rem;
         }

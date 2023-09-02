@@ -6,6 +6,8 @@
     <meta name="description" content="Estampados de textiles,poleras,accesorios y rescate fotográfico de escritos y expresiones culturales de los muros de Valparaíso">
     <meta name="keywords" content="Estampados,Fotografías,Personalizar,Valparaíso">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/favicon.png">
 
@@ -24,14 +26,14 @@
     <header>
         <nav class="menu navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#"><img class="logo" src="./img/logo.png" alt="logo"></a>
+                <a class="navbar-brand " href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 m-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/tienda.html">Tienda</a>
@@ -47,14 +49,16 @@
                         </li>
                     </ul>
 
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-3" type="search"  aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
-                    </form>
+                    
                     <div class="iconos">
-                        <a class="navbar-brand " href="#"><img class="icono" src="./img/usuario.png" alt="usuario"></a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-3" type="search"  aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                        </form>
+                        
+                        <a class="navbar-brand" href="#"><img src="./img/usuario.png" alt="usuario"></a>
 
-                        <a class="navbar-brand " href="#"><img class="icono" src="./img/carrito.png"  alt="carrito"></a>
+                        <a class="navbar-brand" href="#"><img src="./img/carrito.png"  alt="carrito"></a>
                     </div>
                 </div>
             </div>
@@ -72,24 +76,24 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
+                            <img src="./img/carrusel1.jpg" class="d-block w-100" alt="Imagen referencial de una frase escrita en un muro">
                             <div class="carousel-caption d-none d-md-block">
-                            <h5>ESTAMPADOS ÚNICOS</h5>
-                            <p>Nos identificamos con las expresiones de los muros.</p>
+                            <h1>¿Gustas de las frases?</h1>
+                            <p>Revisa y escoge nuestras exclusivas colecciones fotográficas.</p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
+                            <img src="./img/carrusel2.jpg" class="d-block w-100" alt="Imagen referencial indicando que puedes escoger una frase para utilizarla en productos ">
                             <div class="carousel-caption d-none d-md-block">
-                            <h5>¿TE IDENTIFICAS CON NOSOTROS?</h5>
-                            <p>Puedes contarnos tu idea y generamos una propuesta acorde.</p>
+                            <h1>Ahora que tienes tu frase, escoge como la quieres llevar</h1>
+                            <p>Revisa nuestros Técnica-Porductos.</p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
+                            <img src="./img/carrusel3.jpg" class="d-block w-100" alt="Imagen referencial de productos con frases estampadas">
                             <div class="carousel-caption d-none d-md-block">
-                            <h5>TÉCNICA-TALLER</h5>
-                            <p>El rescate de las expresiones es nuestra pasión</p>
+                            <h1>"Contenedores de Actitud"</h1>
+                            <p>Esto es lo que puedes obtener de nuestro trabajo.</p>
                         </div>
                     </div>
                 </div>
@@ -103,41 +107,41 @@
                     </button>
                 </div>
 
-                        <div class="section1">
-                            <div>
-                                <img class="iconInfo" src="./img/personalizar.png" alt="personalizar">
-                                <h6>Personaliza tus productos</h6>
-                            </div>
-                            <div>
-                                <img class="iconInfo" src="./img/comercio.png" alt="comercio">
-                                <h6>Comercio Local</h6>
-                            </div>
-                            <div>
-                                <img class="iconInfo" src="./img/camara.png" alt="camara">
-                                <h6>Fotografías originales</h6>
-                            </div>
-                            <div>
-                                <img class="iconInfo" src="./img/garantia.png" alt="garantia">
-                                <h6>100% Garantizados</h6>
-                            </div>
+                    <div class="section1">
+                        
+                        <div data-aos="fade-up" data-aos-duration="2500">
+                            <img class="iconInfo" src="./img/personalizar.png" alt="personalizar" >
+                            <h6>Productos exclusivos</h6>
                         </div>
+                        <div data-aos="fade-up" data-aos-duration="2500">
+                            <img class="iconInfo" src="./img/comercio.png" alt="comercio">
+                            <h6>Comercio Local</h6>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2500">
+                            <img class="iconInfo" src="./img/camara.png" alt="camara">
+                            <h6>Fotografías originales</h6>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2500">
+                            <img class="iconInfo" src="./img/garantia.png" alt="garantia">
+                            <h6>100% Garantizados</h6>
+                        </div>
+                    </div>
             </section>
             
             <!--Galeria-->
             <section class="section2">
-                <div>
-                    <img class="imgGaleria" src="./img/colecciones.jpg" alt="colecciones de fotografias">
-                </div>
-                <div>
+                <a href="./pages/colecciones.html">
+                    <img class="imgGaleria"  src="./img/colecciones.jpg" alt="colecciones de fotografias">
+                </a>
+                <a href="./pages/estampados.html">
                     <img class="imgGaleria" src="./img/estampados.jpg" alt="estampados">
-                </div>
-                
-                <div>
+                </a>
+                <a href="./pages/tienda.html">
                     <img class="imgGaleria" src="./img/productos.jpg" alt="tecnica-productos">
-                </div>
-                <div>
+                </a>
+                <a href="./pages/nosotros.html">
                     <img class="imgGaleria" src="./img/historia.jpg" alt="nuestra historia">
-                </div>
+                </a>
             </section>
         </main>
         
@@ -146,21 +150,22 @@
                 <img class="logoFooter" src="./img/logo.png" alt="logo">
                 <p class="pFooter">Somos una empresa dedicada a rescatar los escritos y expresiones culturales de los muros de la ciudad, principalmente de Valparaíso, para luego hacerlos tangibles mediantes estampados en productos textiles de uso cotidiano.</p>
                 <p class="pFooter">Cerro Alegre - Valparaíso , Chile.</p>
-                <p class="pFooter">@tecnica_taller</p>
+                <p class="pFooter">Síguenos @tecnica_taller</p>
                 <img src="./img/instagram.png" alt="rrss">
             </div>
             <div class="formulario">
                 <form>
-                    <h2>Contacto</h2>
+                    <h2>Suscríbete a nuestro Newsletter</h2>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-light">Nombre</label>
+                        <input type="name" class="form-control"    >
+                    </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label text-light"     >Dirección de correo electrónico</label>
                         <input type="email" class="form-control"     id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text text-light">Nunca compartiremos su correo electrónico.</div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1"     class="form-label text-light">Contraseña</label>
-                        <input type="password" class="form-control"     id="exampleInputPassword1">
-                    </div>
+
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input"     id="exampleCheck1">
                         <label class="form-check-label text-light"     for="exampleCheck1">Acepto las condiciones</label>
@@ -172,5 +177,11 @@
 
     <!--link a javascript de bootstrap, antes del cierre del body-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 </html>

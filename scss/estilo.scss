@@ -7,7 +7,7 @@ main{
     grid-area: section-1;
     .carrusel{
         width: 90%;
-        height: calc(100vh-160px);
+        height: calc(100vh- 160px);
         object-fit: cover;
         margin: auto;
     }
@@ -19,16 +19,17 @@ main{
         justify-content:center;
         align-items:center;
         margin: auto;
+
         .iconInfo{
             width: 8rem;
             border-radius: 80px;
-            border: 1px solid rgb(120, 124, 124);
+            border: 1px solid $color2;
             margin: 60px;
             margin-bottom: 20px;
             box-shadow: 5px 2px 5px rgb(185, 184, 184);
         }
         h6{
-            color: rgb(120, 124, 124);
+            color: $color2;
             font-family: 'Montserrat', sans-serif;
             text-align:center;
             margin-bottom: 60px;
@@ -42,18 +43,20 @@ main{
         justify-content:center;
         align-items:center;
         margin: auto;
-        .imgGaleria{
-            max-width: 380px;
-            width: 100%;
-            opacity: .8;
-            margin: 30px;
-            box-shadow: 5px 2px 5px rgb(185, 184, 184);
-            &:hover{
-                opacity: 1;    
-            }
+            .imgGaleria{
+                max-width: 380px;
+                width: 100%;
+                opacity: .8;
+                margin: 30px;
+                box-shadow: 5px 2px 5px $color2;
+                &:hover{
+                    opacity: 1;    
+                    }
+                }
         }
-    }
 }
+    
+
 
 
 

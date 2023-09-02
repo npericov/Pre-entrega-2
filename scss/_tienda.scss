@@ -1,35 +1,60 @@
 @import "vars";
 @import "media-tienda";
-@import "body";
-@import "header";
+
 
 
 main{
     h1{
-        color: $colortexto1;
+        color: $color3;
         font-size: xx-large;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
-    .grupoBotones{
-        text-align:center;
-        .botonColor{
-            background-color: rgb(14, 175, 167);
-            border-color: rgb(14, 175, 167);
-            color: white;
-            &:hover{
-                background-color: $colortexto2;
-                color: white;
-                border-color: rgb(14, 175, 167);
+    .aparece{
+        color:$color2;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        animation-duration: 4s;
+        animation-name: aparece;
+        animation-iteration-count: infinite;
+        @keyframes aparece{
+            0%{
+                opacity: 0.1;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0.1;
             }
         }
     }
+    
+    
     .lista{
         color: rgb(120, 124, 124);
+        text-align: justify;
         &:hover{
             color:rgb(14, 175, 167);
-            border-left: 3px solid rgb(14, 175, 167);
+            border-left: 1px solid rgb(14, 175, 167);
+            border-bottom: 1px solid rgb(14, 175, 167);
         }
+        &:active{
+            background-color: $color3;
+            color:white;
+            border-left: 1px solid rgb(14, 175, 167);
+            border-bottom: 1px solid rgb(14, 175, 167);
+        }
+    }
+    .activo{
+        background-color: $color3;
+        color: white;
+        &:hover{
+            color:white;
+            border-left: 1px solid rgb(14, 175, 167);
+            border-bottom: 1px solid rgb(14, 175, 167);
+        }
+
     }
     .tarjeta{
         margin: 1rem;
@@ -54,4 +79,4 @@ main{
     }
 }
 
-@import "footer";
+

@@ -23,14 +23,14 @@
     <header>
         <nav class="menu navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#"><img class="logo" src="../img/logo.png" alt="logo"></a>
+                <a class="navbar-brand " href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 m-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="tienda.html">Tienda</a>
@@ -46,14 +46,15 @@
                         </li>
                     </ul>
 
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-3" type="search"  aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
-                    </form>
                     <div class="iconos">
-                        <a class="navbar-brand " href="#"><img class="icono" src="../img/usuario.png" alt="usuario"></a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-3" type="search"  aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                        </form>
+                        
+                        <a class="navbar-brand" href="#"><img src="../img/usuario.png" alt="usuario"></a>
 
-                        <a class="navbar-brand " href="#"><img class="icono" src="../img/carrito.png"  alt="carrito"></a>
+                        <a class="navbar-brand" href="#"><img src="../img/carrito.png"  alt="carrito"></a>
                     </div>
                 </div>
             </div>
@@ -64,35 +65,29 @@
             <div class="row">
                 <div class="col-s-12 col-md-12 col-lg-12 p-3"> 
                     <h1>Tienda</h1>
+                    <h5 class="aparece"> Conoce nuestros Técnicas-productos y crea tu "Contenedor de Actitud"</h5>
                 </div>
 
-                
-                <!--Grupo de botones-->
-                <div class="col-s-12 col-md-12 col-lg-12 p-3  grupoBotones"> 
-                    <div class="btn-group" role="group" aria-label="Basic outlined example">
-                        <button type="button" class="btn btn-outline--white-border border-white border-1 botonColor">Poleras</button>
-                        <button type="button" class="btn btn-outline-white-border border-white border-1 botonColor">Polerones</button>
-                        <button type="button" class="btn btn-outline-white-border border-white border-1 botonColor">Estuches</button>
-                        <button type="button" class="btn btn-outline-white-border border-white border-1 botonColor">Bolsas</button>
-                        <button type="button" class="btn btn-outline--white-border border-white border-1 botonColor">Accesorios</button>
-                    </div>
-                </div>
                 <!--Lista de categorias/columna 1-->
                 <div class="col-s-12 col-md-12 col-lg-2 p-3"> 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item lista">Mujer</li>
-                        <li class="list-group-item lista">Hombre</li>
-                        <li class="list-group-item lista ">Niñes</li>
+                        <li class="list-group-item lista activo">Poleras</li>
+                        <li class="list-group-item lista">Polerones</li>
+                        <li class="list-group-item lista ">Bolsas</li>
+                        <li class="list-group-item lista ">Estuches</li>
+                        <li class="list-group-item lista ">Monederos</li>
+                        <li class="list-group-item lista ">Magnetos</li>
+                        <li class="list-group-item lista ">Stickets</li>
                     </ul>
                 </div>
                 <!--Columna 2-->
                 <div class="col-s-12 col-md-6 col-lg-5 p-3"> 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div >
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera.jpg" class="card-img-top" alt="polera color blanco">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Blancas</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -101,10 +96,10 @@
 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div tarjeta>
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera2.jpg" class="card-img-top" alt="polera color negro">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Negras</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -113,10 +108,10 @@
 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div tarjeta>
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera3.jpg" class="card-img-top" alt="polera color amarillo">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Amarillas</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -127,10 +122,10 @@
                 <div class="col-s-12 col-md-6 col-lg-5 p-3 "> 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div >
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera5.jpg" class="card-img-top" alt="polera color violeta">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Moradas</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -139,10 +134,10 @@
 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div tarjeta>
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera6.jpg" class="card-img-top" alt="polera1">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Verdes</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -151,10 +146,10 @@
 
                     <div class="card tarjeta" style="width: 18rem mx-auto">
                         <div tarjeta>
-                            <img src="../img/polera.jpg" class="card-img-top" alt="polera1">
+                            <img src="../img/polera4.jpg" class="card-img-top" alt="polera1">
                             <div class="card-body">
-                                <h5 class="card-title">Polera cuello polo</h5>
-                                <p class="card-text">Polera 100% algodón.</p>
+                                <h5 class="card-title">Poleras Azules</h5>
+                                <p class="card-text">Polera manga corta, 100% algodón.</p>
                                 <a href="#" class="btn btn botonColor">Detalles</a>
                                 <a href="#" class="btn btn botonColor2">Agregar al carrito</a>
                             </div>
@@ -169,21 +164,22 @@
                 <img class="logoFooter" src="../img/logo.png" alt="logo">
                 <p class="pFooter">Somos una empresa dedicada a rescatar los escritos y expresiones culturales de los muros de la ciudad, principalmente de Valparaíso, para luego hacerlos tangibles mediantes estampados en productos textiles de uso cotidiano.</p>
                 <p class="pFooter">Cerro Alegre - Valparaíso , Chile.</p>
-                <p class="pFooter">@tecnica_taller</p>
+                <p class="pFooter">Síguenos @tecnica_taller</p>
                 <img src="../img/instagram.png" alt="rrss">
             </div>
             <div class="formulario">
                 <form>
-                    <h2>Contacto</h2>
+                    <h2>Suscríbete a nuestro Newsletter</h2>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-light">Nombre</label>
+                        <input type="name" class="form-control"    >
+                    </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label text-light"     >Dirección de correo electrónico</label>
                         <input type="email" class="form-control"     id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text text-light">Nunca compartiremos su correo electrónico.</div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1"     class="form-label text-light">Contraseña</label>
-                        <input type="password" class="form-control"     id="exampleInputPassword1">
-                    </div>
+
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input"     id="exampleCheck1">
                         <label class="form-check-label text-light"     for="exampleCheck1">Acepto las condiciones</label>
