@@ -240,6 +240,7 @@ main .aparece {
   color: #787c7c;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  margin-top: 2rem;
   animation-duration: 4s;
   animation-name: aparece;
   animation-iteration-count: infinite; }
@@ -253,6 +254,7 @@ main .aparece {
     opacity: 0.1; } }
 
 main .lista {
+  margin-top: 1rem;
   color: #787c7c;
   text-align: justify; }
   main .lista:hover {
@@ -292,29 +294,38 @@ main .botonColor2 {
     color: #be1622;
     border-color: #be1622; }
 
-main {
-  background-color: #ffffff;
-  width: 90%;
-  margin: auto;
+main h1 {
   text-align: center; }
-  main h1 {
-    color: #0eafa7;
-    font-size: xx-large;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; }
-  main .galery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-    box-shadow: 5px 5px 5px 5px #b9b8b8;
-    margin-top: 3rem; }
-    main .galery .imgCole {
-      width: 300px;
+
+main h4 {
+  color: #787c7c;
+  margin: 1rem;
+  text-align: center; }
+  main h4:hover {
+    color: #BD1622;
+    font-size: 26px; }
+
+main .galeria {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto; }
+  main .galeria .coleccion {
+    margin: 2rem;
+    background-color: #787c7c;
+    box-shadow: 2px 5px 5px 5px #b9b8b8; }
+    main .galeria .coleccion .imgCole {
+      max-width: 320px;
+      margin: 20px;
       box-shadow: 5px 2px 5px #b9b8b8; }
-  main h6 {
-    color: #787c7c; }
+
+h2 {
+  width: 100%;
+  background-color: #787c7c;
+  color: #ffffff;
+  text-align: center; }
 
 main h1 {
   color: #0eafa7;

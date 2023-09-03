@@ -1,37 +1,46 @@
 @import "vars";
 
 
+
 main{
-    background-color: $color1;
-    width: 90%;
-    margin: auto;
-    text-align: center;
     h1{
-        color: $color3;
-        font-size: xx-large;
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
-    .galery{
-
+    h4{
+        color: $color2;
+        margin: 1rem;
+        text-align: center;
+        &:hover{
+            color:$color4;
+            font-size:26px;
+            } 
+    }
+    .galeria{
+        width: 90%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items:flex-end;
-        box-shadow: 5px 5px 5px 5px rgb(185, 184, 184);
-        margin-top: 3rem;
-        .imgCole{
-            width: 300px;
-            box-shadow: 5px 2px 5px rgb(185, 184, 184);
+    
+        margin: 2rem auto;
+        .coleccion{
+            margin: 2rem;
+            background-color: $color2;
+            box-shadow: 2px 5px 5px 5px rgb(185, 184, 184);
+            .imgCole{
+                max-width:320px;
+                margin: 20px;
+                box-shadow: 5px 2px 5px rgb(185, 184, 184);   
+                }
+            }  
         }
     }
-    h6{
-        color:$color2;
+
+    
+    
+    h2{
+        width: 100%;
+        background-color: $color2;
+        color:$color1;
+        text-align: center;
     }
-}
-
-
-
-
-
