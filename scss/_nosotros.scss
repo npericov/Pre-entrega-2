@@ -4,9 +4,9 @@
 main{
 
     .section3{
-        width: 50%;
+        width: 90%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content:center;
         align-items:center;
@@ -14,16 +14,13 @@ main{
         .imgGaleria2{
             max-width: 380px;
             width: 100%;
-            opacity: .8;
             margin: 30px;
             box-shadow: 5px 2px 5px rgb(185, 184, 184);
-            &:hover{
-                opacity: 1;
-            }
+
         }
         .parrafo{
             color:#0eafa7;
-            font-size: small;
+            font-size:16px;
             text-align: justify;
             margin: auto;
         }

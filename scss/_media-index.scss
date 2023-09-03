@@ -55,26 +55,12 @@
             margin: auto;
             width: 100%;
         }
-
-    }
-    
-    }
-    footer{
-        .infoFooter{
+        .section3{
             width: 100%;
-            margin-bottom: 1rem;
-            } 
-        
-        .formulario {
-            width: 100%;
-            background-color: rgb(120, 124, 124);
-            padding: 1rem;
-            margin: 1rem;}
+        }
     }
-
+}
     
-
-
 
 @media screen and (max-width:480px) {
     body{
@@ -104,9 +90,7 @@
                 
             }
             h6{
-                margin-bottom: 30px;
-
-                
+                margin-bottom: 30px;    
             }
         }
         .section2{
@@ -141,19 +125,8 @@
                 width: 100%;
             }
         }
+        .section3{
+            width: 100%;
+        }    
     }
-footer{
-    .infoFooter{
-        width: 100%;
-        margin-bottom: 1rem;
-        }
-    .logoFooter{
-        margin-top:2rem;
-        }
-    .formulario {
-        max-width: 380px;
-        width: 100%;
-        }
-    } 
 }
-    
