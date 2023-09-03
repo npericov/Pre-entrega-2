@@ -9,16 +9,15 @@
 .boton1{
     @include boton($bgcolor1, $border1)
     &:hover{
-        color:$color3;
-        border-color:$color3;
-    }
+        color:$bgcolor1;
+        border-color: $border1;
+        }
 }
-
 .boton2{
     @include boton($bgcolor2, $border2)
     &:hover{
-        color: $color4;
-        border-color:$color4;
+        color: $bgcolor2;
+        border-color:$border2;
     }
 }
 
