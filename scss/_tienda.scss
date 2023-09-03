@@ -1,6 +1,27 @@
 @import "vars";
 
 
+@mixin boton($bgcolor, $border){
+    background-color: $bgcolor;
+    border:1px solid $border;
+    color:$color1;
+}
+.boton1{
+    @include boton($bgcolor1, $border1)
+    &:hover{
+        color:$color3;
+        border-color:$color3;
+    }
+}
+
+.boton2{
+    @include boton($bgcolor2, $border2)
+    &:hover{
+        color: $color4;
+        border-color:$color4;
+    }
+}
+
 
 
 main{
@@ -61,24 +82,7 @@ main{
     .tarjeta{
         margin: 1rem;
     }
-    .botonColor{
-        background-color: rgb(14, 175, 167);
-        border-color: rgb(14, 175, 167);
-        color: white;
-        &:hover{
-            color: rgb(14, 175, 167);
-            border-color: rgb(14, 175, 167);
-        }
-    }
-    .botonColor2{
-        background-color:rgb(190,22,34);
-        border-color:rgb(190,22,34);
-        color: white;
-        &:hover{
-            color: rgb(190,22,34);;
-            border-color: rgb(190,22,34);
-        }
-    }
+    
 }
 
 

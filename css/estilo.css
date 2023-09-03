@@ -246,6 +246,22 @@ footer {
       width: 100%;
       margin: auto; } }
 
+.boton1 {
+  background-color: #0eafa7;
+  border: 1px solid #0eafa7;
+  color: #ffffff; }
+  .boton1:hover {
+    color: #0eafa7;
+    border-color: #0eafa7; }
+
+.boton2 {
+  background-color: #BD1622;
+  border: 1px solid #BD1622;
+  color: #ffffff; }
+  .boton2:hover {
+    color: #BD1622;
+    border-color: #BD1622; }
+
 main h1 {
   color: #0eafa7;
   font-size: xx-large;
@@ -293,22 +309,6 @@ main .activo {
 
 main .tarjeta {
   margin: 1rem; }
-
-main .botonColor {
-  background-color: #0eafa7;
-  border-color: #0eafa7;
-  color: white; }
-  main .botonColor:hover {
-    color: #0eafa7;
-    border-color: #0eafa7; }
-
-main .botonColor2 {
-  background-color: #be1622;
-  border-color: #be1622;
-  color: white; }
-  main .botonColor2:hover {
-    color: #be1622;
-    border-color: #be1622; }
 
 main h1 {
   text-align: center; }
