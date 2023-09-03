@@ -315,7 +315,7 @@ main h1 {
 
 main h4 {
   color: #787c7c;
-  margin: 1rem;
+  margin: 1rem auto;
   text-align: center; }
   main h4:hover {
     color: #BD1622;
@@ -327,7 +327,8 @@ main .galeria {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem auto; }
+  text-align: center;
+  margin: 1rem auto; }
   main .galeria .coleccion {
     margin: 2rem;
     background-color: #787c7c;
@@ -335,7 +336,8 @@ main .galeria {
     main .galeria .coleccion .imgCole {
       max-width: 320px;
       margin: 20px;
-      box-shadow: 5px 2px 5px #b9b8b8; }
+      box-shadow: 5px 2px 5px #b9b8b8;
+      border-radius: 10px; }
 
 h2 {
   width: 100%;
@@ -381,10 +383,10 @@ main .section3 {
   main .section3 .imgGaleria2 {
     max-width: 380px;
     width: 100%;
-    margin: 30px;
+    margin: 2rem;
     box-shadow: 5px 2px 5px #b9b8b8; }
   main .section3 .parrafo {
     color: #0eafa7;
     font-size: 16px;
     text-align: justify;
-    margin: auto; }
+    margin: 2rem auto; }
