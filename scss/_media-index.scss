@@ -40,26 +40,36 @@
             margin-bottom: 30px;
         }
     }
+    .section2{
+        width: 100%;;
+        margin: 20px auto;
+        text-align: center;
+        .imgGaleria{
+            max-width: 320px;
+            text-align: center;
+            margin:15px auto;
+        }
+    }
     .section4{
         width: 100%;
         .imgGaleria1{
             max-width: 380px;
             width: 100%;
             margin: 0;
-            box-shadow: 5px 2px 5px rgb(185, 184, 184);
         }
         .parrafo1{
-            color:#0eafa7;
-            font-size:  16px;;
-            text-align: justify;
-            margin: auto;
-            width: 100%;
-        }
-        .section3{
             width: 100%;
         }
     }
+    .section3{
+            width: 100%;
+            margin: auto;
+            p.parrafo{
+                margin: 0;
+        }
+    }
 }
+
     
 
 @media screen and (max-width:480px) {
@@ -94,39 +104,38 @@
             }
         }
         .section2{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content:center;
-            align-items:center;
+            width: 100%;;
             margin: 20px auto;
             text-align: center;
             .imgGaleria{
                 max-width: 320px;
-                width: 100%;
                 text-align: center;
-                margin: auto 0;
+                margin:15px auto;
             }
         }
         .section4{
             width: 100%;
             .imgGaleria1{
-                max-width: 380px;
-                width: 100%;
-                margin: 0;
-                box-shadow: 5px 2px 5px rgb(185, 184, 184);
+                max-width: 320px;
+                margin:auto;
             }
             .parrafo1{
-                color:#0eafa7;
-                font-size:  16px;;
-                text-align: justify;
-                margin: auto;
                 width: 100%;
             }
         }
         .section3{
             width: 100%;
+            margin: auto;
+            img.imgGaleria2{
+                max-width: 320px;
+                margin:auto;
+                text-align: center;
+            }
+            p.parrafo{
+            width: 100%;
+            margin: auto;
+            
+            }
         }    
     }
 }
